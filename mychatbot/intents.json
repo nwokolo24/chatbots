@@ -1,0 +1,134 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "How are you",
+                "Is anyone there?"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, how can I be of help today?",
+                "Hi there, what can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Coodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye!, Come back again"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot"],
+            "responses": ["Happy to help", "Any time", "My pleasure"]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Which items do you have",
+                "What kind of items are there",
+                "What do you sell"
+            ],
+            "responses": [
+                "We sell self-help books",
+                "We have chocolate in the store",
+                "We sell items for doctores and software engineers"
+            ]
+        },
+        {
+            "tag": "virus",
+            "patterns": [
+                "How safe am I in Rexburg?",
+                "Where can I get tested for covid-19?",
+                "How many students are tested positive for covid"
+            ],
+            "responses": [
+                "Not a lot of students have contacted covid",
+                "Covid testing is free at the Student Health Center",
+                "Check out this site for more information 'https://www.google.com"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+            "responses": ["I.m Udo, your bot assistant", "I'm Udo, an Artificial Intelligent bot"]
+        },
+        {
+            "tag": "name",
+           "patterns": ["what is your name", "what should I call you", "whats your name?"],
+           "responses": ["You can call me Udo.", "I'm Udo!", "Just call me as Udo"]
+        },
+        {
+            "tag": "help",
+           "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+           "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+        },
+        {
+            "tag": "createaccount",
+           "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+           "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+        },
+        {
+            "tag": "complaint",
+           "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+           "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+        },
+        {
+            "tag": "options",
+            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+            "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"]
+        },
+        {
+            "tag": "adverse_drug",
+            "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
+            "responses": ["Navigating to Adverse drug reaction module"]
+        },
+        {
+            "tag": "blood_pressure",
+            "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
+            "responses": ["Navigating to Blood Pressure module"]
+        },
+        {
+            "tag": "blood_pressure_search",
+            "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
+            "responses": ["Please provide Patient ID", "Patient ID?"]
+        },
+        {
+            "tag": "search_blood_pressure_by_patient_id",
+            "patterns": [],
+            "responses": ["Loading Blood pressure result for Patient"]
+        },
+        {
+            "tag": "pharmacy_search",
+            "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
+            "responses": ["Please provide pharmacy name"]
+        },
+        {
+            "tag": "search_pharmacy_by_name",
+            "patterns": [],
+            "responses": ["Loading pharmacy details"]
+        },
+        {
+            "tag": "hospital_search",
+            "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
+            "responses": ["Please provide hospital name or location"]
+        },
+        {
+            "tag": "search_hospital_by_params",
+            "patterns": [],
+            "responses": ["Please provide hospital type"]
+        },
+        {
+            "tag": "search_hospital_by_type",
+            "patterns": [],
+            "responses": ["Loading hospital details"]
+        }
+    ]
+}

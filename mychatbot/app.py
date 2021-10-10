@@ -1,10 +1,11 @@
 from tkinter import *
 from chat import get_response, bot_name
+from threading import Timer
 
 # Variable to store data
-BG_GRAY = "#ABB2B9"
-BG_COLOR = "#17202A"
-TEXT_COLOR = "#EAECEE"
+BG_GRAY = "#dddddd"
+BG_COLOR = "#ffffff"
+TEXT_COLOR = "#000000"
 BUTTON_COLOR = "#072F5F"
 
 FONT = 'Helvetica 14'
@@ -20,11 +21,10 @@ class ChatApplication:
 
     def _setup_main_window(self):
         self.window.title("Chat")
-        self.window.resizable(width=False, height=False)
         self.window.configure(width=470, height=550, bg=BG_COLOR)
 
         # head label
-        head_label = Label(self.window, bg=BG_COLOR, fg=TEXT_COLOR, text="Welcome", font=FONT_BOLD, pady=10)
+        head_label = Label(self.window, bg=BG_GRAY, fg="#111111", text="Welcome", font=FONT_BOLD, pady=10)
         head_label.place(relwidth=1)
 
         # tiny divider
@@ -43,11 +43,11 @@ class ChatApplication:
 
 
         # bottom label
-        bottom_label = Label(self.window, bg=BG_GRAY, height=80)
-        bottom_label.place(relwidth=1, rely=0.825)
+        bottom_label = Label(self.window, bg=BG_GRAY, height=50)
+        bottom_label.place(relwidth=1, rely=0.890)
 
         # message entry box
-        self.msg_entry = Entry(bottom_label, bg="#2c3e50", fg=TEXT_COLOR, font=FONT)
+        self.msg_entry = Entry(bottom_label, bg=BG_COLOR, fg=TEXT_COLOR, font=FONT, bd=1)
         self.msg_entry.place(relwidth=0.74, relheight=0.06, rely=0.008, relx=0.011)
         self.msg_entry.focus()
         self.msg_entry.bind("<Return>", self._on_enter_pressed)
@@ -71,12 +71,16 @@ class ChatApplication:
         self.text_widget.insert(END, msg1)
         self.text_widget.configure(state=DISABLED)
 
-        msg2 = f"{bot_name}: {get_response(msg)}\n\n"
-        self.text_widget.configure(state=NORMAL)
-        self.text_widget.insert(END, msg2)
-        self.text_widget.configure(state=DISABLED)
+        def loading():
+            msg2 = f"{bot_name}: {get_response(msg)}\n\n"
+            self.text_widget.configure(state=NORMAL)
+            self.text_widget.insert(END, msg2)
+            self.text_widget.configure(state=DISABLED)
 
-        self.text_widget.see(END)
+            self.text_widget.see(END)
+        
+        load = Timer(2.0, loading)
+        load.start()
 
 if __name__ == "__main__":
     app = ChatApplication()

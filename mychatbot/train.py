@@ -31,9 +31,7 @@ all_words = [stem(x) for x in all_words if x not in ignore_words]
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
 
-# print(all_words)
-# print()
-# print(tags)
+print(xy)
 
 X_train = []
 Y_train = []

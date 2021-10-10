@@ -27,7 +27,7 @@ model.load_state_dict(model_state)
 model.eval()
 
 
-bot_name = "Udo"
+bot_name = "Emeka"
 
 def get_response(msg):
     sentence = tokenize(msg)

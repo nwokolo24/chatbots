@@ -9,126 +9,222 @@
                 "How are you",
                 "Is anyone there?"
             ],
-            "responses": [
-                "Hey :-)",
-                "Hello, how can I be of help today?",
-                "Hi there, what can I do for you?"
-            ]
+            "responses": [ "Hey :-)", "Hello, how can I be of help today?", "Hi there, what can I do for you?"]
         },
         {
             "tag": "goodbye",
             "patterns": ["Bye", "See you later", "Coodbye"],
-            "responses": [
-                "See you later, thanks for visiting",
-                "Have a nice day",
-                "Bye!, Come back again"
-            ]
+            "responses": [ "See you later, thanks for visiting", "Have a nice day", "Bye!, Come back again"]
         },
         {
-            "tag": "thanks",
-            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot"],
-            "responses": ["Happy to help", "Any time", "My pleasure"]
+            "tag": "applying BYU-Idaho",
+            "patterns": ["How do I apply to BYU-Idaho? BYUI"],
+            "responses": ["Visit the Admissions site for information on how to apply to BYU-Idaho."]
         },
         {
-            "tag": "items",
-            "patterns": [
-                "Which items do you have",
-                "What kind of items are there",
-                "What do you sell"
-            ],
-            "responses": [
-                "We sell self-help books",
-                "We have chocolate in the store",
-                "We sell items for doctores and software engineers"
-            ]
+            "tag": "financial aid_scholarship",
+            "patterns": ["Can I apply for financial aid or scholarships at BYU-Idaho?"],
+            "responses": ["Visit the Financial Aid site for information regarding financial aid and scholarships."]
         },
         {
-            "tag": "virus",
-            "patterns": [
-                "How safe am I in Rexburg?",
-                "Where can I get tested for covid-19?",
-                "How many students are tested positive for covid"
-            ],
-            "responses": [
-                "Not a lot of students have contacted covid",
-                "Covid testing is free at the Student Health Center",
-                "Check out this site for more information 'https://www.google.com"
-            ]
+            "tag": "housing",
+            "patterns": ["How do I find housing?"],
+            "responses": ["Visit the Housing Search page for help finding housing."]
         },
         {
-            "tag": "about",
-            "patterns": ["Who are you?", "What are you?", "Who you are?" ],
-            "responses": ["I.m Udo, your bot assistant", "I'm Udo, an Artificial Intelligent bot"]
+            "tag": "looking for housing",
+            "patterns": ["When should I look for housing?"],
+            "responses": ["You should begin looking for potential housing options after you have accepted your admission to BYU-Idaho. However, you should not purchase any housing contracts until you have received your I-20 and your F-1 visa."]
         },
         {
-            "tag": "name",
-           "patterns": ["what is your name", "what should I call you", "whats your name?"],
-           "responses": ["You can call me Udo.", "I'm Udo!", "Just call me as Udo"]
+            "tag": "get my i-20",
+            "patterns": ["When can I get my I-20?"],
+            "responses": ["Before you can receive your I-20 you must first be accepted to BYU-Idaho. Once you have accepted your offer, you will need to apply for an I-20 through Sunapsis. Only after you have completed all requirements can you receive an I-20."]
         },
         {
-            "tag": "help",
-           "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
-           "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+            "tag": "apply i-20",
+            "patterns": ["How do I apply for an I-20?"],
+            "responses": ["You can apply for your I-20 through the Application for Form I-20 on Sunapsis. Keep in mind that you will not have access to this form until you have accepted your admission to BYU-Idaho."]
         },
         {
-            "tag": "createaccount",
-           "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
-           "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+            "tag": "using i-20",
+            "patterns": ["What do I do now that I have my I-20?"],
+            "responses": ["Now that you have your I-20, you should pay the I-901 SEVIS Fee and make preparations for your visa interview. Set up an interview with the U.S. embassy closest to you."]
         },
         {
-            "tag": "complaint",
-           "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
-           "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+            "tag": "i-901 sevis_fee",
+            "patterns": ["Do I have to pay the I-901 SEVIS Fee?"],
+            "responses": ["If you have been issued a new I-20 with a new SEVIS number, you are required to pay the I-901 SEVIS Fee. You do not need to pay the fee if your I-20 has been extended or transferred to or from another university. See the I-901 SEVIS Fee page for more information about how to pay."]
         },
         {
-            "tag": "options",
-            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
-            "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"]
+            "tag": "paying i-901 sevis_fee",
+            "patterns": ["How do I pay the I-901 SEVIS Fee?"],
+            "responses": ["See the I-901 SEVIS Fee page for more information about how to pay."]
         },
         {
-            "tag": "adverse_drug",
-            "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
-            "responses": ["Navigating to Adverse drug reaction module"]
+            "tag": "get school visa",
+            "patterns": ["How do I go about getting a visa?"],
+            "responses": ["You will need to set up a visa appointment with the nearest U.S. embassy. There will be additional information on the embassy website about how to apply for a nonimmigrant visa."]
         },
         {
-            "tag": "blood_pressure",
-            "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
-            "responses": ["Navigating to Blood Pressure module"]
+            "tag": "denied visa",
+            "patterns": ["My visa has been denied or delayed, what should I do?"],
+            "responses": ["If your visa has been denied or delayed, you should contact International Services as soon as possible. Your start date may have to be pushed to a future semester. International Services will coordinate efforts with you to make you a new I-20 if needed.", "If you already made travel or housing arrangements and your visa has been delayed or denied, you should cancel those as soon as possible if you will be unable to begin school on your original start date."]
         },
         {
-            "tag": "blood_pressure_search",
-            "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
-            "responses": ["Please provide Patient ID", "Patient ID?"]
+            "tag": "check-in international service",
+            "patterns": ["check-in with BYU-Idaho BYUI and International Services?"],
+            "responses": ["To check-in with International Services, you should fill out the New Student Check-In form on Sunapsis. You will need to provide information regarding your travel as well as your personal phone number and U.S. address."]
         },
         {
-            "tag": "search_blood_pressure_by_patient_id",
-            "patterns": [],
-            "responses": ["Loading Blood pressure result for Patient"]
+            "tag": "international_travel documents",
+            "patterns": ["documents for traveling internationally", "International travel documents"],
+            "responses": ["If you are traveling in and out of the U.S. you should always carry your passport, visa (if applicable), and your I-20. You will need to get your I-20 signed by a DSO on page two for a travel endorsement so that you can reenter the U.S."]
         },
         {
-            "tag": "pharmacy_search",
-            "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
-            "responses": ["Please provide pharmacy name"]
+            "tag": "without i-20",
+            "patterns": ["enter or reenter the U.S. without my I-20 or a travel endorsement?"],
+            "responses": ["If you do not have the correct documentation or a valid signature you may be denied entry to the U.S. If you are admitted into the U.S., you will likely be issued an I-515A document."]
         },
         {
-            "tag": "search_pharmacy_by_name",
-            "patterns": [],
-            "responses": ["Loading pharmacy details"]
+            "tag": "renew visa",
+            "patterns": ["Do I need to renew my visa if it has expired?"],
+            "responses": ["You can remain in the U.S. on an expired visa. If you travel outside the U.S. on an expired visa you will need to renew it before reentering the U.S."]
         },
         {
-            "tag": "hospital_search",
-            "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
-            "responses": ["Please provide hospital name or location"]
+            "tag": "passport_visa",
+            "patterns": ["I lost my passport/visa, what should I do?", "Don't have passport"],
+            "responses": ["If you have lost your passport/visa or had it stolen, you should file a police report as soon as possible. You can do this by going to the local police station. Once you have done that, contact your embassy in the U.S. to find out how to get a new passport/visa."]
         },
         {
-            "tag": "search_hospital_by_params",
-            "patterns": [],
-            "responses": ["Please provide hospital type"]
+            "tag": "leave country",
+            "patterns": ["leave the country, what is the process?"],
+            "responses": ["If you have lost your passport/visa or had it stolen, you should file a police report as soon as possible. You can do this by going to the local police station. Once you have done that, contact your embassy in the U.S. to find out how to get a new passport/visa."]
         },
         {
-            "tag": "search_hospital_by_type",
-            "patterns": [],
-            "responses": ["Loading hospital details"]
+            "tag": "campus jobs",
+            "patterns": ["find a job on campus?"],
+            "responses": ["The best place to look for job openings on campus is the job board."]
+        },
+        {
+            "tag": "work off_campus",
+            "patterns": ["Can I work off-campus?"],
+            "responses": ["You cannot work off-campus without permission from International Services in the form of a new I-20. You can only work off-campus in a job that is related to your major, while taking academic credit for the job, and after receiving authorization from International Services."]
+        },
+        {
+            "tag": "internship approval",
+            "patterns": ["How do I get approval to do an internship?"],
+            "responses": ["You can apply for an internship through IPlan. Before you can apply for the internship, you must have a job offer. The job must be related to your major and must fulfill all internship requirements. Once you have applied for the internship, it must be approved by your faculty coordinator and International Services. When applying for your internship, you should apply several weeks in advance as you cannot begin working without a new I-20 from International Services."]
+        },
+        {
+            "tag": "apply_for OPT",
+            "patterns": ["What is OPT and how do I apply for it?", "apply for opt", "How to opt"],
+            "responses": ["OPT stands for Optional Practical Training and is a work authorization available to graduated students. This allows you to work for 1-3 years in the U.S. after graduation in jobs that relate to your major. You can apply for this in your last semester through Sunapsis. Additional information on OPT can be found here. For more information about OPT, see the OPT STEM Extension page."]
+        },
+        {
+            "tag": "social_security number",
+            "patterns": ["How do I get a social security number?"],
+            "responses": ["You can only receive a social security number if you have a job, and you are required to have a social security number once you have a job. If you receive a job on campus, you will need to take the paperwork provided by HR and signed by a DSO along with your immigration documents to the Social Security Office in Idaho Falls."]
+        },
+        {
+            "tag": "start_working social_security_number",
+            "patterns": ["Do I need a social security number before I can start working?"],
+            "responses": ["You may begin working before receiving your social security number. Questions regarding this should be directed to Human Resources."]
+        },
+        {
+            "tag": "filling taxes",
+            "patterns": ["Do I need to file taxes?"],
+            "responses": ["Yes, all international students are required to file and pay taxes."]
+        },
+        {
+            "tag": "turbo tax_filling",
+            "patterns": [" I have friends or family that use TurboTax to file their taxes in the U.S., why can’t I use TurboTax?", "filling taxes with turbo tax"],
+            "responses": ["TurboTax is meant for U.S. residents only. Non-immigrants who file using TurboTax have filed incorrectly and it could cause issues with future government applications."]
+        },
+        {
+            "tag": "get deposit",
+            "patterns": ["How do I get my deposit back?"],
+            "responses": ["A deposit is only refunded if you have graduated, are withdrawing from school, leaving on a mission, or transferring schools. When a deposit is refunded it will go to the person who paid for it originally. If you did not pay for your deposit on your own, it will not be refunded to you without permission from the original payer."]
+        },
+        {
+            "tag": "enrollment",
+            "patterns": ["What does it mean to be fully enrolled?", "full enrolment", "requred full enrolment"],
+            "responses": ["Full enrollment means being registered for a minimum of 12 credits. Only one class or three credits of online coursework count toward the required 12 credits.", "You are required by law to be enrolled in 12 credits for two semesters out of the year. Generally, the two semesters are your on-track semesters. If you wish to not be fully enrolled during an on-track semester you could apply for an annual break, but only if you were fully enrolled during your flex semester. if you feel you have extenuating circumstances, please schedule an appointment with an advisor."]
+        },
+        {
+            "tag": "flex tracks",
+            "patterns": ["Can I take classes during my flex track?"],
+            "responses": ["Yes, you can take classes during your flex track. You can take as little or as many classes as you want. You can apply for an override through Admissions to register for classes before the semester starts."]
+        },
+        {
+            "tag": "semester breaks",
+            "patterns": ["Under what circumstances can I take a break from a full load of classes?"],
+            "responses": ["During your flex track you are not required to be in a full course load. If you would like to take less than a full course load during an on-track semester, there are different circumstances that would permit you to do so. Contact International Services with specific questions regarding this."]
+        },
+        {
+            "tag": "new_major new_i_20",
+            "patterns": ["changed my major need a new I-20?", "I changed my major"],
+            "responses": ["If you changed your major, you will be issued a new I-20 from International Services."]
+        },
+        {
+            "tag": "serving mission",
+            "patterns": ["I want to serve a mission; how does that affect my school and immigration status?", "serving a mission", "going on a mission"],
+            "responses": ["When you leave for your mission your I-20 will be terminated for Authorized Early Withdrawal. You should apply for a missionary deferment with admissions to keep your spot with the school. Because your I-20 will be terminated, you will need to apply for a new I-20 before continuing your studies at BYU-Idaho."]
+        },
+        {
+            "tag": "expired i_20",
+            "patterns": ["My I-20 is going to expire, but I need more time to finish my degree. What should I do?"],
+            "responses": ["If you need additional time to complete your degree, you can apply for an I-20 Extension through Sunapsis. You will need to provide a copy of your grad plan and additional financial proof as part of the application."]
+        },
+        {
+            "tag": "get married",
+            "patterns": ["Will my status change when I get married?"],
+            "responses": ["When you get married, either to a U.S. citizen or international student, your status will not change.", "However, if you get married to a U.S. citizen and travel outside the U.S. after getting married you could have problems with reentry. When you try to reenter the U.S. the CBP office will consider you an immigrant and you would be entering the U.S. with the wrong visa status. F-1 is a nonimmigrant status and you could be barred from entering the country. International Services recommends that you do not travel out of the U.S. after marrying a U.S. citizen. This would include getting married or honeymooning outside the U.S."]
+        },
+        {
+            "tag": "immigration status",
+            "patterns": ["My immigration status has changed, do I need to report that to International Services?", "change status", "report international immigration status"],
+            "responses": ["If your status has changed you should contact our office as soon as possible. If you have received a green card and are now a permanent resident, we need proof of the change of status and will terminate your I-20 as it will no longer be valid."]
+        },
+        {
+            "tag": "request new_i_20",
+            "patterns": ["request a new I-20?", "how to request new i-20"],
+            "responses": ["If you need a new I-20 because yours was misplaced, lost, stolen, damaged, etc. you can apply for a Replacement I-20 through Sunapsis. International Services will contact you when your new I-20 is ready."]
+        },
+        {
+            "tag": "opt process",
+            "patterns": ["How do I start the OPT process?", "starting opt process steps", "step to start opt process"],
+            "responses": ["You can start applying for OPT during your last semester at BYU-Idaho. You can start the application by filling out the OPT Request form in Sunapsis. The form will have additional information you need to submit an application to USCIS."]
+        },
+        {
+            "tag": "family_come US",
+            "patterns": ["Can my spouse/children come to the U.S. with my while I attend school?", "bring family to the us", "bring childrem to the us"],
+            "responses": ["Yes, your spouse/children may come to the U.S. with you. You will need to provide their information in the I-20 application, and they will need to apply for visas before traveling to the U.S. with you."]
+        },
+        {
+            "tag": "family_members visit_US",
+            "patterns": ["Can family members visit me in the U.S.?", "request family member to visit you in the us"],
+            "responses": ["Yes, family members or friends may visit you while you are in the U.S. You can fill out a Letter Request form in Sunapsis for them to take to their visa interviews before they visit."]
+        },
+        {
+            "tag": "drivers license",
+            "patterns": ["How can I get a driver’s license?", "my drivers license", "obtaining drivers license"],
+            "responses": ["In order to get a U.S. driver’s license, you must apply for one at the DMV in Rexburg. Some foreign driver’s licenses will still be valid while you are in the U.S. Contact the DMV to find out more."]
+        },
+        {
+            "tag": "address changed",
+            "patterns": ["My address has changed, how do I report that?", "reporting address change", "how to report house address change", "address change and reporting"],
+            "responses": ["If your address has changed you should update that on your profile on myBYUI. This will update with the school and will update in our system so we can report the change to SEVIS."]
+        },
+        {
+            "tag": "change marital_status",
+            "patterns": ["I just got married, how do I change my marital status with the school?", "got married marital status change", "how to change marital status"],
+            "responses": ["See the Student Records and Registration page for information on how to change your marital status."]
+        },
+        {
+            "tag": "help from the university",
+            "patterns": ["What kind of help can I receive from the University?", "type of university helps"],
+            "responses": ["Academic advising", "Career services", "Disabilities services", "English Transitional center", "Peer mentoring", "student support", "Tutoring", "other resources"]
         }
     ]
 }

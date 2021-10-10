@@ -225,6 +225,81 @@
             "tag": "help from the university",
             "patterns": ["What kind of help can I receive from the University?", "type of university helps"],
             "responses": ["Academic advising", "Career services", "Disabilities services", "English Transitional center", "Peer mentoring", "student support", "Tutoring", "other resources"]
+        },
+        {
+            "tag": "quotes_on_suffering",
+            "patterns": ["Give me prophetic quotes on about suffering", "tell me something about adversity", "what do you know quotes on about suffering"],
+            "responses": ["Trust in his timing. Believe in his grace. -Greg Olsen", "No trial is so large that we can't overcome it together. - Neil Andersen", "Suffering is universal. how we react to suffering is individual. Suffering can take us one of two ways. It can be a strengthening and purifying experience combined with faith, or it can be a destructive force in our lives if we do not have the faith in the Lord’s atoning sacrifice. The purpose of suffering, however, is to build and strengthen us. We learn obedience by the things we suffer. -Elder Robert D. Hales"]
+        },
+         {
+            "tag": "obedience_quotes",
+            "patterns": ["Give me a prophetic quote on about obedience"],
+            "responses": ["I will go and do the things - 1 Nephi 3:7", "Obedience leads to true freedom. The more we obey revealed truth, the more we become liberated. -James Faust", "Obedience is a choice. It is a choice between our limited knowlege and power and God's unlimited wisdom and omnipotence. -Tom Perry"]
+        },
+        {
+            "tag": "quotes_on_suicide",
+            "patterns": ["Give me a quote about on suicide", "why do I need to quotes on keep living"],
+            "responses": ["We can feel joy when we focus on Jesus Christ regardless of what is happening in our lives -Elder Perkins", "you are unique you are irreplaceable. The loss of even one voice diminishes every other singer, in this great mortal choir - Jeffrey Holland",
+                         "Don't you quit. You keep walking. You keep trying. There is help and happiness ahead. - Jeffrey Holland"]
+        },
+        {
+            "tag": "quotes_on_prayer",
+            "patterns": ["Give me a quote on about prayer", "why do i have pray", "what do you quotes on know about prayer"],
+            "responses": ["Our Heavenly Father does answer prayer in his own time and in his own way -Thomas Monson", "The greatest Miracles happen, when we humbly approach our Father in Heaven in prayer -Linda Reeves", "Counsel with the Lord in all thy doings, and he will direct the for good -Alma 37:37"]
+        },
+        {
+            "tag": "quotes_on_faith",
+            "patterns": ["Give me prophetic quote on about faith", "Tell me something quotes on about faith"],
+            "responses": ["Your faith will grow not by chance, but by choice. -Neil Andersen", "Be of good cheer. Your future is as bright as your faith. - Thomas Monson", "An abiding faith becomes an Anchor to our lives. -Thomas Monson"]
+        },
+        {
+            "tag": "qotes_on_love",
+            "patterns": ["Give me prophetic quotes on about love", "Tell me something quotes on about Love"],
+            "responses": ["God's love is there for you whether or not you feel you deserve love. It is simply always there. Thomas Monson", "Love is the most powerful force in the world. -Dallin Oaks", "Perfect love is perfectly patient. -Neil Maxwell"]
+        },
+        {
+            "tag": "quotes_on_life",
+            "patterns": ["Give me prophetic quotes on about life", "what do you quotes on know about life"],
+            "responses": ["If today you are a little better than you were yesterday, then that's enough. -David Bednar", "May we ever choose the harder right, instead of the easier wrong. -Thomas Monson","Life is to be enjoyed, not just endured. -Gordon Hinckley"]
+        },
+        {
+            "tag": "quotes_on_death",
+            "patterns": ["Give me prophetic quotes on about Death", "Tell me something quotes on about death"],
+            "responses": ["Tears are all right. They are the price we pay for love, care, and compassion in the world. -Jeffrey Holland", "Our mortal birth was not beginning. Death which faces all of us, is not the end. -Ezra Benson"]
+        },
+         {
+            "tag": "quotes_on_marriage",
+            "patterns": ["Give me prophetic quotes on about marriage", "Tell me something quotes on about marriage"],
+            "responses": ["None of us marry perfection, we marry potential. -Robert Hales", "There is no more important commitment in time or in eternity than marriage. -Henry Eyring",
+                         "Great marriages are built brick by brick, day after day, over a life time. Dieter Uchtdorf", 
+                          "Marriage is sanctified when it is cherished and honoured in holiness. that union is not merely between husband and wife; it embraces a patnership with God. -Russell Nelson"]
+        },
+         {
+            "tag": "quotes_on_jealousy",
+            "patterns": ["Give me prophetic quotes on about jealousy", "Tell me something quotes on about jealousy"],
+            "responses": ["We are not diminished when someone else is added upon, -Jeffrey Holland"]
+        },
+         {
+            "tag": "quotes_on_gratitude",
+            "patterns": ["Give me prophetic quotes on about gratitude", "Tell me something quotes on about gratitude" ],
+            "responses": ["Gratitude is a catalyst to all Christlike attributes. A thankful heart is the parent of all virtues. -Dieter Uchtdorf", "We can choose to be grateful no matter what. -Dieter Uchtdorf",
+                          "Gratitude is said to be the memory of the heart. -Joseph f. Smith"]
+        },
+         {
+            "tag": "quotes_on_missionary_work",
+            "patterns": ["Give me prophetic quotes on about missionary work", "Tell me something quotes on about missionary work"],
+            "responses": ["By helping others come unto him, you will find that you have come unto him yourself. -Henry Eyring", "It is impossible to fail, when you do your best when you are on the lord's errand. -Russell Ballard", 
+                          "The most effective missionaries, always act out of love. -Dallin Oaks"]
+        },
+         {
+            "tag": "quotes_on_education",
+            "patterns": ["Give me prophetic quotes on about about education", "Tell me something quotes on about education"],
+            "responses": ["Education is not merely agood idea, it is a commandment. - Dieter Uchtdorf", "Your education will strengthen your service in the church. Gordon Hinckley"]
+        },
+         {
+            "tag": "quotes_on_convenants",
+            "patterns": ["Give me prophetic quotes on about convenant", "Tell me something about convenant"],
+            "responses": ["Keeping convenants protects us, prepares us, and empowers us. - Rosemary Wixom"]
         }
     ]
 }

@@ -26,12 +26,11 @@ for intent in intents["intents"]:
         all_words.extend(w)
         xy.append((w, tag))
 
-ignore_words = ['?', "!", ".", ",", "'"]
+ignore_words = ['?', "!", ".", ",", "-", "/"]
 all_words = [stem(x) for x in all_words if x not in ignore_words]
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
 
-print(xy)
 
 X_train = []
 Y_train = []
@@ -42,8 +41,10 @@ for (pattern_sentence, tag) in xy:
     label = tags.index(tag)
     Y_train.append(label)
 
+
 X_train = np.array(X_train)
 Y_train = np.array(Y_train)
+
 
 class ChatDataset(Dataset):
     def __init__(self):

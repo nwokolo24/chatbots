@@ -3,9 +3,9 @@ from chat import get_response, bot_name
 from threading import Timer
 
 # Variable to store data
-BG_GRAY = "#dddddd"
-BG_COLOR = "#ffffff"
-TEXT_COLOR = "#000000"
+BG_GRAY = "#ABB2B9"
+BG_COLOR = "#f5f0f0"
+TEXT_COLOR = "#0c0e0f"
 BUTTON_COLOR = "#072F5F"
 
 FONT = 'Helvetica 14'
@@ -24,21 +24,22 @@ class ChatApplication:
         self.window.configure(width=470, height=550, bg=BG_COLOR)
 
         # head label
-        head_label = Label(self.window, bg=BG_GRAY, fg="#111111", text="Welcome", font=FONT_BOLD, pady=10)
+        head_label = Label(self.window, bg=BG_COLOR, fg=TEXT_COLOR, text="Welcome", font=FONT_BOLD, pady=10)
         head_label.place(relwidth=1)
 
         # tiny divider
         line = Label(self.window, width=450, bg=BG_GRAY)
         line.place(relwidth=1, rely=0.07, relheight=0.012)
 
+
         # text widget
-        self.text_widget = Text(self.window, width=20, height=2, bg=BG_COLOR, fg=TEXT_COLOR, font=FONT, padx=5, pady=5)
+        self.text_widget = Text(self.window, width=20, height=2, bg=BG_COLOR, fg=TEXT_COLOR, font=FONT, padx=5, pady=5, wrap=WORD)
         self.text_widget.place(relheight=0.745, relwidth=1, rely=0.08)
         self.text_widget.configure(cursor="arrow", state=DISABLED)
 
         # scroll bar
         scrollbar = Scrollbar(self.text_widget)
-        scrollbar.place(relheight=1, relx=0.974)
+        scrollbar.pack(side=RIGHT, fill=Y)
         scrollbar.configure(command=self.text_widget.yview)
 
 

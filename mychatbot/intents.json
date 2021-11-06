@@ -29,7 +29,7 @@
         {
             "tag": "housing",
             "patterns": ["How do I find housing?"],
-            "responses": ["Visit the Housing Search page for help finding housing."]
+            "responses": ["Visit the BYUI Housing Search page for help finding housing."]
         },
         {
             "tag": "looking for housing",
@@ -224,7 +224,7 @@
         {
             "tag": "help from the university",
             "patterns": ["What kind of help can I receive from the University?", "type of university helps"],
-            "responses": ["Academic advising", "Career services", "Disabilities services", "English Transitional center", "Peer mentoring", "student support", "Tutoring", "other resources"]
+            "responses": ["Academic advising, Career services, Disabilities services, English Transitional center, Peer mentoring, student support, Tutoring, other resources"]
         },
         {
             "tag": "quotes_on_suffering",
@@ -233,7 +233,7 @@
         },
          {
             "tag": "obedience_quotes",
-            "patterns": ["Give me a prophetic quote on about obedience"],
+            "patterns": ["Give me a prophetic quote on about obedience", "give me a quote on obedience"],
             "responses": ["I will go and do the things - 1 Nephi 3:7", "Obedience leads to true freedom. The more we obey revealed truth, the more we become liberated. -James Faust", "Obedience is a choice. It is a choice between our limited knowlege and power and God's unlimited wisdom and omnipotence. -Tom Perry"]
         },
         {

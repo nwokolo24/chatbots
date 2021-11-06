@@ -33,7 +33,7 @@ class ChatApplication:
 
 
         # text widget
-        self.text_widget = Text(self.window, width=20, height=2, bg=BG_COLOR, fg=TEXT_COLOR, font=FONT, padx=5, pady=5, wrap=WORD)
+        self.text_widget = Text(self.window, width=20, height=2, bg="#EEEEEE", fg="#222222", font=FONT, padx=5, pady=5, wrap=WORD)
         self.text_widget.place(relheight=0.745, relwidth=1, rely=0.08)
         self.text_widget.configure(cursor="arrow", state=DISABLED)
 
@@ -48,7 +48,7 @@ class ChatApplication:
         bottom_label.place(relwidth=1, rely=0.890)
 
         # message entry box
-        self.msg_entry = Entry(bottom_label, bg=BG_COLOR, fg=TEXT_COLOR, font=FONT, bd=1)
+        self.msg_entry = Entry(bottom_label, bg="#EEEEEE", fg="#222222", font=FONT, bd=1)
         self.msg_entry.place(relwidth=0.74, relheight=0.06, rely=0.008, relx=0.011)
         self.msg_entry.focus()
         self.msg_entry.bind("<Return>", self._on_enter_pressed)

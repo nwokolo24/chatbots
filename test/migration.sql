@@ -1,2 +1,0 @@
-USE accounts;
-SHOW TABLES;

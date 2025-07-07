@@ -1,0 +1,2 @@
+USE accounts;
+SHOW TABLES;

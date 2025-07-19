@@ -1,0 +1,14 @@
+{
+    "versions": [
+        {
+            "version": "20250718183900",
+            "description": "Initial migration",
+            "date": "2023-10-01"
+        },
+        {
+            "version": "20250719183923",
+            "description": "Added new feature",
+            "date": "2023-10-15"
+        }
+    ]
+}
